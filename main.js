@@ -36,7 +36,11 @@ button.onclick = function () {
   if (lengthOfP.value > 20) {
     result.style.fontSize = "15px";
   } else {
-    result.style.fontSize = "25px";
+    if (window.screen.width > 399) {
+      result.style.fontSize = "25px";
+    } else {
+      result.style.fontSize = "15px";
+    }
   }
 
   if (
