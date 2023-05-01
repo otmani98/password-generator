@@ -31,7 +31,7 @@ button.onclick = function () {
   let numberValues = "0123456789";
   let lowerValues = "abcdefghijklmnopqrstuvwxyz";
   let uperValues = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  let spcialValues = "~!@#$%^&*()_+-}|{:><?";
+  let spcialValues = "~!@#$%^&*()_+-}|{:>?";
 
   if (lengthOfP.value > 20) {
     result.style.fontSize = "15px";
