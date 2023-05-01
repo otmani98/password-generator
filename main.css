@@ -116,6 +116,9 @@ button:active,
     margin-left: 30px;
     width: 80%;
   }
+  .result {
+  font-size: 15px;
+  } 
 }
 
 /* for checked styling */
