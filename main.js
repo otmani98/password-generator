@@ -40,7 +40,7 @@ button.onclick = function () {
   }
 
   if (
-    uppercase.checked ||
+    lowercase.checked ||
     uppercase.checked ||
     specialch.checked ||
     numbers.checked
